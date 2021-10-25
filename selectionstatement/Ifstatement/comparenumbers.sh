@@ -5,6 +5,9 @@ read -p "Enter second Number :" y;
 if [ $x -gt $y ];
 then 
       echo "$x is greater than $y"
+elif [ $x -eq $y ];
+then
+       echo "$x is equal to $y"
 else
-      echo "$y is greater than $x"
+      echo "$x is less than $y"
 fi
